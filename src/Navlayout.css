@@ -1,0 +1,23 @@
+.navContainer{
+    background-color: teal;
+    padding: 1px;
+}
+.navContainer ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navContainer li{
+    border: 1px solid black;
+    list-style-type:none;
+    color: white;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}
+.navContainer a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
